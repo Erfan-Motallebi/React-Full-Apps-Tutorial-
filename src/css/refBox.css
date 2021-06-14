@@ -1,0 +1,27 @@
+body {
+  background: #346751;
+}
+article section {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+article section h1 {
+  color: #03256c;
+}
+
+label {
+  color: #ecdbba;
+  font-size: 3.1ex;
+}
+
+button {
+  color: 161616;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+input {
+  font-size: 1.2rem;
+}

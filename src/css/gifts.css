@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 90vw;
+  margin: auto;
+  margin-top: 50px;
+}
+
+body {
+  background: #232323;
+}
+
+img {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 198px;
+}
+
+article {
+  display: flex;
+  gap: 20px 20px;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+article section {
+  width: 230px;
+  height: 315.992px;
+  /* margin: 10px; */
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  box-shadow: 3px 3px 10px 0.5px #39a6a3;
+}
+hr {
+  width: 70%;
+  margin: 3px auto;
+}
+article section p.price {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 8px;
+  color: hsl(60, 100%, 50%);
+}
+
+article section div.title {
+  height: 35px;
+  margin: 3px 0 0 3px;
+  color: #deeeea;
+}
+
+sup {
+  color: hsl(0, 100%, 50%);
+}
+
+.brand {
+  width: 100px;
+  text-align: center;
+  background: #bf1363;
+  padding: 5px 10px;
+  border-radius: 2rem 0;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  transform: skewX(170deg);
+}
+
+@media screen and (max-width: 550px) {
+  article section {
+    margin: auto;
+  }
+  .brand {
+    background: hsl(60, 100%, 50%);
+    color: #cc0992;
+    text-align: center;
+    border-radius: 0 2rem;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  .brand:hover {
+    letter-spacing: 1px;
+    background: #0a81ab;
+    color: #01cc12;
+  }
+
+  div.title {
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  div.title:hover {
+    text-align: center;
+    transform: scaleX(110%);
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #005792;
+  margin: auto;
+  padding: 10px 14px;
+  text-align: center;
+  max-width: 80%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #fc92e3;
+  margin: auto;
+  background: yellow;
+  letter-spacing: 1px;
+  transition: letter-spacing 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+h1:hover {
+  letter-spacing: 2px;
+  color: tomato;
+  cursor: vertical-text;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f3ae;
+}
+
+ul {
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  background: #fc9e4f;
+  text-align: start;
+  padding: 10px 14px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+ul li:hover {
+  box-shadow: 0px 1px 2px 10px #020122, 3px 0px 20px 5px #020122 inset;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 2rem 4rem;
+  animation: leftToMiddle 1s ease-in-out forwards;
+}
+
+@keyframes leftToMiddle {
+  0% {
+    transform: translate(-20px);
+  }
+  50% {
+    transform: translate(-60px);
+  }
+  100% {
+    transform: translate(-60px);
+  }
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+h2 span:last-child {
+  color: #03256c;
+  text-shadow: 0 0 75px #49ff18, 0 0 55px #49ff18, 0 0 40px #49ff18,
+    0 0 30px #49ff18, 0 0 20px #49ff18, 0 0 15px #fff, 0 0 10px #fff,
+    0 0 5px #fff;
+}
+h2 span:first-child {
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+}

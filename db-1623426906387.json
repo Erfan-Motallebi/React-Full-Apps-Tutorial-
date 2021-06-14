@@ -1,0 +1,29 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "name": "Eric",
+      "email": "eZipcoder@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "Bob@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Peter",
+      "email": "Peter@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "John",
+      "email": "John@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Jackson",
+      "email": "Jackson@gmail.com"
+    }
+  ]
+}

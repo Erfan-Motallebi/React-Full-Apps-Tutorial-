@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #999b84;
+}
+
+article {
+  width: 90%;
+  margin: 100px auto;
+}
+
+article h1 {
+  text-align: center;
+  background: #ca8a8b;
+  width: 40%;
+  margin: auto;
+  padding: 10px 12px;
+  border-radius: 3rem 1rem;
+  color: #0000ff;
+  margin-bottom: 50px;
+  box-shadow: -5px 0 3px 3px #49433e;
+}
+
+article h3 {
+  width: 70%;
+  text-align: start;
+  margin: 20px auto;
+  padding: 10px 12px;
+  color: #02475e;
+  background: #f6e6e4;
+  border-radius: 3rem 1rem;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  box-shadow: -5px 0 3px 3px hsla(27, 8%, 26%, 0.4);
+}
+article h3:hover {
+  color: #000000;
+  letter-spacing: 2px;
+  box-shadow: -5px 0 3px 3px hsla(27, 8%, 26%, 1);
+}
+
+h3 .remove {
+  position: absolute;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 3rem 1rem;
+  background: linear-gradient(rgba(12, 34, 157, 0.5), rgba(12, 34, 157, 0.5));
+  left: 0%;
+  top: 6px;
+  transition: all 0.8s ease-in-out;
+}
+h3 .remove:hover {
+  background: linear-gradient(rgba(250, 0, 0, 0.8), rgba(206, 6, 6, 0.5));
+  cursor: pointer;
+  height: 42px;
+  top: 0;
+  width: 100%;
+  border-radius: 3rem 1rem;
+}

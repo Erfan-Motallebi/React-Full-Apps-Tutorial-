@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #161616;
+  text-align: center;
+}
+
+h1,
+h3,
+h4 {
+  color: #c84b31;
+}
+
+p {
+  color: #ecdbba;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 12px;
+  color: #c84b31;
+  font-weight: 700;
+  border-radius: 2rem 0;
+  border: unset;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0.5px darkorange;
+  display: block;
+  margin: 5px auto;
+}
+section,
+article {
+  margin-top: 100px;
+}

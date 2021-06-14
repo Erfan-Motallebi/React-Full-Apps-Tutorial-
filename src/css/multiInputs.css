@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #deedf0;
+}
+
+article {
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 3.4ex;
+  /* font-size: 2em; */
+  /* font-size: 32px; */
+  background: #47597e;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 20px 20px 8px 3px #f4c7ab;
+}
+
+input {
+  color: #0a1931;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 27px;
+  border-radius: 20px 0 0 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input[name|="firstName"] {
+  margin-bottom: 2.2ex;
+}
+input[name|="email"] {
+  margin-bottom: 2.2ex;
+}
+input[name|="age"] {
+  margin-left: 18px;
+}
+label {
+  transition: all 0.4s ease-out;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 2px red, -1px -1px 2px #e5d549;
+}
+label:hover {
+  color: aqua;
+  box-shadow: 0 0 20px 20px darkmagenta, 0 0 30px 30px yellow,
+    0 0 30px 30px darkred;
+}
+button {
+  position: relative;
+  padding: 10px 15px;
+  width: 100px;
+  margin-top: 10px;
+  left: 43.5%;
+  top: 20px;
+  transition: box-shadow 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  border: 2px solid #c84b31;
+  border-radius: 20px 0 0 20px;
+  background: #ce3b1e;
+  color: #fff5eb;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 30px 10px #adff2f, -1px -1px 50px 60px #93a577;
+  color: #fb9300;
+  letter-spacing: 2px;
+}
+
+div > div {
+  width: 80%;
+  margin: 0 auto;
+  background: #d8b384;
+  border-radius: 4px;
+  padding: 0 10px 0 10px;
+}
+
+div section {
+  display: flex;
+  justify-content: space-between;
+}
+div section p {
+  margin: 15px 0 15px 0;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+span.age {
+  padding-right: 50px;
+  color: #ce3b1e;
+  position: relative;
+  left: 30%;
+}
+
+div section p:hover {
+  letter-spacing: 2px;
+  color: #03256c;
+  box-shadow: 1px 1px 10px 2px #adff2f, -1px -1px 10px 5px #93a577;
+}
